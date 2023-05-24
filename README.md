@@ -17,29 +17,35 @@ The Align plug-in for Autodesk® Revit® can help to save time while producing c
 Just select a few elements and the Align tool will sort them for you.
 
 ### Derive:
+
 Insert design elements such as Components, Bodies, Sketches, Work geometry, Flat patterns or parameters from another design.
 The inserted elements update with changes to the original design
 
-### Move: Moves the selected face, body, sketch, or construction geometry a specified distance or angle.
+### Move: 
+
+Moves the selected face, body, sketch, or construction geometry a specified distance or angle.
 Select the objects to modify then specify the distance or angle. Use set pivot to reposition the manipulator
 
 ## PROCEDURE:
 ### STEP 1: 
  Identifying the given model.
 
-### STEP 2: Importing the components.
+### STEP 2:  
+Importing the components.
+
 Firstly, we import all the necessary parts into the assembly project. Here, we use Finger, gear linkage, Secondary Linkage, Base. For, Importing the components into the project, we use the insert derive option in the Insert>Insert Derive.
 
 ### STEP 3: 
 We place the base model onto the X-Y plane.
 
 ### STEP 4: Aligning the components
+
 Then we align the imported, Gear linkage model, in its respective slot of the base.
 For aligning the component onto the base, we use the align option, available in Modify>Align.
 For aligning the component onto the base, we first select the “from” coordinates then we select the “To” coordinates in the given base model. At first, the model might not align properly, so, we use the flip option to bring the component to the desired position.
 
 ### STEP 5: 
-We follow the same steps for aligning the components onto their respective      slots on the base component.
+We follow the same steps for aligning the components onto their respective slots on the base component.
 
 ### Note: 
 If the components do not fit properly into the slots, it can be moved into the slot using the Move option.
@@ -48,6 +54,7 @@ If the components do not fit properly into the slots, it can be moved into the s
 ![image](https://user-images.githubusercontent.com/113594316/199641859-1ebade5e-7bb4-4047-aa4b-89ae1d934ba0.png)
 
 ## OUTPUT:
+![](/6.2.png)
 
 ## RESULT:
 Thus, a design of various parts of a mechanical component and assemble it using a bottom-up approach in orthographic view has been done
